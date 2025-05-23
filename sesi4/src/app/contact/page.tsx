@@ -3,17 +3,18 @@ import { FaInstagram, FaWhatsapp, FaFacebook, FaTelegram } from "react-icons/fa"
 import { MdEmail } from "react-icons/md";
 
 export default function Contact() {
-  const navItems = [
+  const navbarItems = [
     { name: "Home", link: "/", icon: null },
     { name: "About", link: "/about", icon: null },
     { name: "Contact", link: "/contact", icon: null },
     { name: "Experience", link: "/experience", icon: null },
     { name: "Resume", link: "/resume", icon: null },
+    { name: "Weather", link: "/blog", icon: null },
   ];
 
   return (
     <>
-      <FloatingNav navItems={navItems} />
+      <FloatingNav navItems={navbarItems} />
       <div className="pt-28 bg-black text-gray-700 grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
         <h1 className="pt-25 text-white text-4xl font-bold text-center">
           Cont<span className="text-blue-500">act</span>

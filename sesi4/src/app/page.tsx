@@ -8,6 +8,7 @@ export default function Home() {
     { name: "Contact", link: "/contact", icon: null },
     { name: "Experience", link: "/experience", icon: null },
     { name: "Resume", link: "/resume", icon: null },
+    { name: "Weather", link: "/blog", icon: null },
   ];
 
   return (
